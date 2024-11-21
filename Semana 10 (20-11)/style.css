@@ -1,0 +1,68 @@
+
+/* Importação da Fonte Bitter do Google Fontes */
+
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Estilização Universal */
+
+* {
+  box-sizing: border-box; 
+  font-family: "Bitter", serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilização do Plano de Fundo */
+
+body {
+  background-color: rgba(145, 236, 145, 0.589);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  padding: 20px; 
+}
+
+/* Estilização do título h1 */
+
+h1 {
+  color: mediumseagreen;
+  font-size: 40px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+/* Estilização da Section que contém a div Grid */
+
+.grid {
+  display: grid;
+  grid-gap: 10px; 
+  grid-template-columns: repeat(5, 1fr); 
+  grid-template-rows: auto; 
+}
+
+.grid-item1, .grid-item2, .grid-item3, .grid-item4, .grid-item5,
+.grid-item6, .grid-item7, .grid-item8, .grid-item9, .grid-item10 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.grid-item1 img, .grid-item2 img, .grid-item3 img, .grid-item4 img, 
+.grid-item5 img, .grid-item6 img, .grid-item7 img, .grid-item8 img, 
+.grid-item9 img, .grid-item10 img {
+  height: auto;  
+  object-fit: cover;  
+  width: 100%; 
+}
+
+/* Estilização do Rodapé */
+
+footer {
+  color: black;
+  font-size: 20px;
+  margin-top: 30px;
+  text-align: center;
+}
+
